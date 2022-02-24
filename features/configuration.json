@@ -1,0 +1,46 @@
+{
+	"$schema": "https://raw.githubusercontent.com/liferay/liferay-js-toolkit/master/resources/schemas/configuration.schema.json",
+	"system": {
+		"category": "localization-test-widget",
+		"name": "localization-test-widget",
+		"fields": {
+			"fruit": {
+				"type": "string",
+				"name": "fruit",
+				"description": "fruit-help",
+				"default": "orange",
+				"options": {
+					"orange": "an-orange",
+					"pear": "a-pear",
+					"apple": "an-apple"
+				}
+			}
+		}
+	},
+	"portletInstance": {
+		"fields": {
+			"drink": {
+				"type": "string",
+				"name": "drink",
+				"description": "drink-help",
+				"default": "water",
+				"options": {
+					"water": "water",
+					"wine": "wine",
+					"beer": "beer"
+				}
+			},
+			"fruit": {
+				"type": "string",
+				"name": "fruit",
+				"description": "fruit-help",
+				"default": "orange",
+				"options": {
+					"orange": "an-orange",
+					"pear": "a-pear",
+					"apple": "an-apple"
+				}
+			}
+		}
+	}
+}
